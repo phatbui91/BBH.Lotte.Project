@@ -30,5 +30,9 @@ namespace BBH.Lotte.Project.Services.Controllers
         {
             return View();
         }
+        public ActionResult test1()
+        {
+            return View();
+        }
     }
 }
