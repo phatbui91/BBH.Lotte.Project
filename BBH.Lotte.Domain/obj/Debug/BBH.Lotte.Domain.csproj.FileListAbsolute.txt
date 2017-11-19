@@ -1,0 +1,4 @@
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Domain\bin\Debug\BBH.Lotte.Domain.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Domain\bin\Debug\BBH.Lotte.Domain.pdb
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Domain\obj\Debug\BBH.Lotte.Domain.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Domain\obj\Debug\BBH.Lotte.Domain.pdb

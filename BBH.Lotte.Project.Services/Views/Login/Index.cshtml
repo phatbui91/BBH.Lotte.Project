@@ -1,0 +1,123 @@
+﻿
+<script src="/Scripts/login/Login.js"></script>
+<h2>Index</h2>
+<div class="btn-group pull-right">
+    <button class="btn btn-default dropdown-toggle" onclick="ToggleSubMenu()" data-toggle="dropdown">
+        <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> @Session["Email"]</span>
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+     
+        <li><a href="javascript:void(0)" onclick="ExistsMember()">Logout</a></li>
+    </ul>
+</div>
+@*<div class="btn-group pull-right">
+    <button class="btn btn-default dropdown-toggle" onclick="ToggleSubMenu()" data-toggle="dropdown">
+        <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> @Session["SessionToken_"]</span>
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+
+        <li><a href="javascript:void(0)" onclick="ExistsMember()">Logout</a></li>
+    </ul>
+</div>*@
+<div class="ch-container">
+    <div class="row">
+
+        <div class="row">
+            <div class="col-md-12 center login-header">
+                <h2>Welcome to Lotto</h2>
+            </div>
+            <!--/span-->
+        </div><!--/row-->
+        <div class="row">
+            <div class="well col-md-5 center login-box">
+                <div id="divMessage" class="alert alert-info">
+
+                </div>
+                <form class="form-horizontal" action="index.html" method="post">
+                    <fieldset>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
+                            <input type="text" id="txtEmail" name="txtEmail" onfocus="ResetForm(1)" class="form-control" placeholder="Email">
+
+
+                        </div>
+                        <div class="clearfix"></div><br>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
+                            <input type="password" id="txtPassword" name="txtPassword" onkeydown="return EnterLogin(event, this.value)" onfocus="ResetForm(3)" class="form-control" placeholder="Password">
+                        </div>
+                        @*<div class="clearfix"></div>
+                            <div class="input-prepend">
+                                <label class="remember" for="remember"><input type="checkbox" id="remember"> Remember me</label>
+                            </div>*@
+                        <div class="clearfix"></div>
+                        <p class="center col-md-5">
+                            @*<img src="/Images/loading.gif" id="imgLoading" style="position: absolute; display:none; left:220px; top:10px">*@
+                            <button type="button" onclick="return MemberLogin()" class="btn btn-primary">Login</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--/span-->
+        </div><!--/row-->
+    </div><!--/fluid-row-->
+</div>
+
+
+<div class="ch-container">
+    <div class="row">
+
+        <div class="row">
+            <div class="col-md-12 center login-header">
+                <h2>Welcome to Lotto</h2>
+            </div>
+            <!--/span-->
+        </div><!--/row-->
+        <div class="row">
+            <div class="well col-md-5 center login-box">
+                <div id="divMessagetoken" class="alert alert-info">
+
+                </div>
+                <form class="form-horizontal" action="index.html" method="post">
+                    <fieldset>
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
+                            <input type="text" id="txtEmailToken" name="txtEmailToken" onfocus="ResetForm(1)" class="form-control" placeholder="Email">
+
+
+                        </div>
+                        
+                       
+                        <div class="clearfix"></div>
+                        <p class="center col-md-5">
+                            <button type="button" onclick="return SubmitToken()" class="btn btn-primary">Submit</button>
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+            <!--/span-->
+        </div><!--/row-->
+    </div><!--/fluid-row-->
+</div>
+
+<script type="text/javascript">
+    function ExistsMember() {
+        $.ajax({
+            type: "post",
+            url: "/Login/LogoutMember",
+            async: false,
+            beforeSend: function () {
+
+            },
+            success: function (d) {
+                window.location.href = '/';
+            }
+        });
+    }
+
+    function ToggleSubMenu() {
+        $('.dropdown-menu').toggle();
+    }
+</script>

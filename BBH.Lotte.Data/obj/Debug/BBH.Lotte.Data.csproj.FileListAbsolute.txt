@@ -1,0 +1,8 @@
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\bin\Debug\BBH.Lotte.Data.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\bin\Debug\BBH.Lotte.Data.pdb
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\bin\Debug\BBC.Core.Database.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\bin\Debug\BBH.Lotte.Domain.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\bin\Debug\BBH.Lotte.Domain.pdb
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\obj\Debug\BBH.Lotte.Data.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\obj\Debug\BBH.Lotte.Data.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.Data\obj\Debug\BBH.Lotte.Data.pdb

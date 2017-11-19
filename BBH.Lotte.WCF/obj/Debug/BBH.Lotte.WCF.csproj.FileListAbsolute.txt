@@ -1,0 +1,11 @@
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.WCF.dll.config
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.WCF.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.WCF.pdb
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.Data.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.Domain.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBC.Core.Database.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.Data.pdb
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\bin\BBH.Lotte.Domain.pdb
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\obj\Debug\BBH.Lotte.WCF.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\obj\Debug\BBH.Lotte.WCF.dll
+D:\Visual Studio 2013\Projects\BBH.Lotte.Project.Services\BBH.Lotte.WCF\obj\Debug\BBH.Lotte.WCF.pdb

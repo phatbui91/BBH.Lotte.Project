@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH.Lotte.Project.Services", "BBH.Lotte.Project.Services\BBH.Lotte.Project.Services.csproj", "{1BEF3CF3-F785-459F-B377-29310D3E0E67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{88857980-A4C6-4C9C-AEEE-30F4D5AC8480}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MT", "MT", "{3BFC14A9-E3A6-4DCE-847B-903CA37906EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH.Lotte.Data", "BBH.Lotte.Data\BBH.Lotte.Data.csproj", "{08515410-7A57-42FE-8643-B8B76F0E806D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH.Lotte.Domain", "BBH.Lotte.Domain\BBH.Lotte.Domain.csproj", "{86255080-AD60-44D3-A830-C0D17E88468B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BBH.Lotte.WCF", "BBH.Lotte.WCF\BBH.Lotte.WCF.csproj", "{C39F4BA2-35A9-4C4F-B1BB-FCED1028D7CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BEF3CF3-F785-459F-B377-29310D3E0E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BEF3CF3-F785-459F-B377-29310D3E0E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BEF3CF3-F785-459F-B377-29310D3E0E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BEF3CF3-F785-459F-B377-29310D3E0E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08515410-7A57-42FE-8643-B8B76F0E806D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08515410-7A57-42FE-8643-B8B76F0E806D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08515410-7A57-42FE-8643-B8B76F0E806D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08515410-7A57-42FE-8643-B8B76F0E806D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86255080-AD60-44D3-A830-C0D17E88468B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86255080-AD60-44D3-A830-C0D17E88468B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86255080-AD60-44D3-A830-C0D17E88468B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86255080-AD60-44D3-A830-C0D17E88468B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39F4BA2-35A9-4C4F-B1BB-FCED1028D7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39F4BA2-35A9-4C4F-B1BB-FCED1028D7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39F4BA2-35A9-4C4F-B1BB-FCED1028D7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39F4BA2-35A9-4C4F-B1BB-FCED1028D7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08515410-7A57-42FE-8643-B8B76F0E806D} = {88857980-A4C6-4C9C-AEEE-30F4D5AC8480}
+		{86255080-AD60-44D3-A830-C0D17E88468B} = {88857980-A4C6-4C9C-AEEE-30F4D5AC8480}
+		{C39F4BA2-35A9-4C4F-B1BB-FCED1028D7CB} = {3BFC14A9-E3A6-4DCE-847B-903CA37906EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E3E3BF6-2EA8-483C-ADE8-7BBE83CCA00E}
+	EndGlobalSection
+EndGlobal

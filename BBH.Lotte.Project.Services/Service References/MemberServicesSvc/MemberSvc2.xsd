@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BBH.Lotte.Domain" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BBH.Lotte.Domain" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="MemberBO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CreateDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="E_Wallet" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsActive" type="xs:int" />
+      <xs:element minOccurs="0" name="IsDelete" type="xs:int" />
+      <xs:element minOccurs="0" name="MemberID" type="xs:int" />
+      <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Points" type="xs:double" />
+      <xs:element minOccurs="0" name="TotalAllMember" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalNewMember" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalRecord" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MemberBO" nillable="true" type="tns:MemberBO" />
+</xs:schema>
